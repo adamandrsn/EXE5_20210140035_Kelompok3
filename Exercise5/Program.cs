@@ -65,15 +65,38 @@ namespace Exercise5
                 try
                 {
                     Console.WriteLine("Menu");
-                    Console.WriteLine("1. Implement insert operation");
-                    Console.WriteLine("2. Implement delete operation");
-                    Console.WriteLine("3. Display values");
-                    Console.WriteLine("4. Exit");
-                    Console.WriteLine("\nEnter your choice (1-4):   ");
+                    Console.WriteLine("1. memasukkan data");
+                    Console.WriteLine("2. hapus data");
+                    Console.WriteLine("3. menampilkan data");
+                    Console.WriteLine("4. keluar");
+                    Console.WriteLine("\nMasukkan pilihan anda (1-4):   ");
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
                     switch (ch)
-                    { }
+                    {
+                        case '1':
+                            {
+                                q.insert();
+                                break;
+                            }
+                        case '2':
+                            {
+                                q.delete();
+                                break;
+                            }
+                        case '3':
+                            {
+                                q.display();
+                                break;
+                            }
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid option!!");
+                            }
+                            break;
+                    }
                 }
                 catch (Exception e)
                 {
