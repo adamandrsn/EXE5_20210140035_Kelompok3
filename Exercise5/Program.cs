@@ -15,5 +15,10 @@ namespace Exercise5
     class Queue
     {
         Node Adam, Yuniarto;
+        public Queue()
+        {
+            Adam = null;
+            Yuniarto = null;
+        }
     }
 }
