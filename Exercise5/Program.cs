@@ -20,5 +20,21 @@ namespace Exercise5
             Adam = null;
             Yuniarto = null;
         }
+        public void insert()
+        {
+            string nm;
+            Node newNode = new Node();
+            Console.WriteLine("Masukkan Data:   ");
+            nm = Console.ReadLine();
+            newNode.name = nm;
+            newNode.next = null;
+            if(Adam == null)
+            {
+                Adam = newNode;
+                Yuniarto = newNode;
+            }
+            Yuniarto.next = newNode;
+            Yuniarto = newNode;
+        }
     }
 }
