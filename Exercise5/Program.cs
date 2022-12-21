@@ -55,5 +55,9 @@ namespace Exercise5
                 return;
             }
         }
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
