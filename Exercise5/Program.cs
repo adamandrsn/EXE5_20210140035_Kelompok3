@@ -48,6 +48,12 @@ namespace Exercise5
                 Yuniarto = null;
         }
         public void display()
-        { }
+        {
+            if (Adam == null)
+            {
+                Console.WriteLine("Queue Kosong");
+                return;
+            }
+        }
     }
 }
