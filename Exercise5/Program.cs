@@ -12,4 +12,8 @@ namespace Exercise5
         public Node next;
 
     }
+    class Queue
+    {
+        Node Adam, Yuniarto;
+    }
 }
