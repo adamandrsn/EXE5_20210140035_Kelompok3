@@ -38,7 +38,11 @@ namespace Exercise5
         }
         public void delete()
         {
-
+            if (Adam == null)
+            {
+                Console.WriteLine("Queue Kosong");
+                return;
+            }
         }
     }
 }
