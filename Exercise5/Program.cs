@@ -43,6 +43,9 @@ namespace Exercise5
                 Console.WriteLine("Queue Kosong");
                 return;
             }
+            Adam = Adam.next;
+            if (Adam == null)
+                Yuniarto = null;
         }
     }
 }
