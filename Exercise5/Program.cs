@@ -93,14 +93,14 @@ namespace Exercise5
                             return;
                         default:
                             {
-                                Console.WriteLine("Invalid option!!");
+                                Console.WriteLine("Opsi tidak valid!!");
                             }
                             break;
                     }
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Check for the values entered.");
+                    Console.WriteLine("Periksa nilai yang dimasukkan.");
                 }
             }
         }
