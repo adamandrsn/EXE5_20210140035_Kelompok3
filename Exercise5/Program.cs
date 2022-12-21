@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exercise5
 {
-    internal class Program
+    class Node
     {
-        static void Main(string[] args)
-        {
-        }
+        public string name;
+        public Node next;
+
     }
 }
