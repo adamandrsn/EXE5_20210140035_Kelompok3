@@ -33,6 +33,7 @@ namespace Exercise5
             {
                 Adam = newNode;
                 Yuniarto = newNode;
+                return;
             }
             Yuniarto.next = newNode;
             Yuniarto = newNode;
