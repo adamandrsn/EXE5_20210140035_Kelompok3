@@ -56,6 +56,9 @@ namespace Exercise5
                 Console.WriteLine("Queue Kosong");
                 return;
             }
+            Node tampil;
+            for (tampil = Adam; tampil != null; tampil = tampil.next)
+                Console.WriteLine(tampil.name);
         }
         static void Main(string[] args)
         {
