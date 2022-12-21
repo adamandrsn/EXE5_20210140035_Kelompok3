@@ -36,5 +36,9 @@ namespace Exercise5
             Yuniarto.next = newNode;
             Yuniarto = newNode;
         }
+        public void delete()
+        {
+
+        }
     }
 }
