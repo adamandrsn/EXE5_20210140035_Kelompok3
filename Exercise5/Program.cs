@@ -47,5 +47,7 @@ namespace Exercise5
             if (Adam == null)
                 Yuniarto = null;
         }
+        public void display()
+        { }
     }
 }
